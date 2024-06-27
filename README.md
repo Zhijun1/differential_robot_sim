@@ -38,10 +38,18 @@ and
 
 How to run (manual teleop)
 
-(1) roslaunch my_robot gazebo.launch #spawns the robot
-(2) roslaunch my_robot slam.launch #starts gmapping
-(3) roslaunch my_robot teleoperator.launch #starts teleop keyboard
+(1) Spawn the robot
 
+    roslaunch my_robot gazebo.launch
+    
+(2) Start gmapping
+
+    roslaunch my_robot slam.launch
+    
+(3) Start teleop keyboard
+
+    roslaunch my_robot teleoperator.launch
+    
 Enable/Disable the robot using "/set_robot_status" service
 
 Note: Source the devel space using "source devel/setup.bash", before launching the files
