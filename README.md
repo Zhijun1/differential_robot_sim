@@ -2,7 +2,7 @@
 
 --------------------------------A Differential Robot Simulation in ROS and Gazebo--------------------------------------
 
-    About the project
+About the project
 
 A differential robot with two drivable wheels at the front and two casters at the rear is used. The robot has a 2D Lidar at the front, an RGBD camera and a screen attached to a pole.
 
@@ -30,8 +30,9 @@ Clone the repository into your workspace's src folder and then run
 
 Install teleop-twist-keyboard and slam-gmapping packages to use keyboard operation and LiDAR SLAM respectively. The following commands can be used to install the packages. Replace distro with your ros distro name
 
-sudo apt-get install ros-<distro>-teleop-twist-keyboard
-sudo apt-get install ros-<distro>-slam-gmapping
+    sudo apt-get install ros-<distro>-teleop-twist-keyboard
+    
+    sudo apt-get install ros-<distro>-slam-gmapping
 
 How to run (manual teleop)
 
