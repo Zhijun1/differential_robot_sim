@@ -33,6 +33,7 @@ Install teleop-twist-keyboard and slam-gmapping packages to use keyboard operati
 
     sudo apt-get install ros-<distro>-teleop-twist-keyboard
 and
+
     sudo apt-get install ros-<distro>-slam-gmapping
 
 How to run (manual teleop)
