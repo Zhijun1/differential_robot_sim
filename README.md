@@ -50,7 +50,8 @@ How to run (manual teleop)
 
     roslaunch my_robot teleoperator.launch
     
-Enable/Disable the robot using "/set_robot_status" service
+You can control the robot by using CLI for changing its topics and services, e.g., /cmd_vel
+rostopic pub /cmd_vel geometry_msg/Twist ... REMEMBER: you can double click TAB for reminding you the CLI!!
 
 Note: Source the devel space using "source devel/setup.bash", before launching the files
 
